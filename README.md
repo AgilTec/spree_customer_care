@@ -1,7 +1,8 @@
 SpreeCustomerCare
 =================
 
-Introduction goes here.
+This extension adds new user role - customer assistant. Each customer have automatically (after creating account) assigned assistant.
+Customer is able to contact with his private assistant anytime from special widget.
 
 Installation
 ------------
@@ -9,7 +10,7 @@ Installation
 Add spree_customer_care to your Gemfile:
 
 ```ruby
-gem 'spree_customer_care'
+gem 'spree_customer_care', git: 'https://github.com/netguru/spree_customer_care/', branch: '2-1-stable'
 ```
 
 Bundle your dependencies and run the installation generator:
@@ -18,6 +19,12 @@ Bundle your dependencies and run the installation generator:
 bundle
 bundle exec rails g spree_customer_care:install
 ```
+
+Additional info
+---------------
+This extension is using [gravatar.com](http://gravatar.com) to display assistants photo/avatar.
+
+Currently supported Spree version: 2.1.X
 
 Testing
 -------

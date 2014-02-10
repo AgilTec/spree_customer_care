@@ -20,6 +20,12 @@ bundle
 bundle exec rails g spree_customer_care:install
 ```
 
+If you are adding this extension to existing application you may want to assign assistants to existing users
+To do so you can use this rake task:
+```shell
+rake customer_assistants:assign_to_all_users
+```
+
 Additional info
 ---------------
 This extension is using [gravatar.com](http://gravatar.com) to display assistants photo/avatar.

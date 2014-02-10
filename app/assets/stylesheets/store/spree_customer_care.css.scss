@@ -16,10 +16,12 @@
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 2px;
+    cursor: pointer;
   }
 
   .content {
     border-left: 1px solid #C4BECA;
     border-right: 1px solid #C4BECA;
+    display: none;
   }
 }

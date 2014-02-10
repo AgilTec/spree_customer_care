@@ -50,4 +50,4 @@ Simply add this require statement to your spec_helper:
 require 'spree_customer_care/factories'
 ```
 
-Copyright (c) 2014 Netguru, released under the New BSD License
+Copyright (c) 2014 [Netguru](https://netguru.co), released under the New BSD License

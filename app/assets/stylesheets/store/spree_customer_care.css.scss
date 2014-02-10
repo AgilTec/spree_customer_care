@@ -1,0 +1,25 @@
+/*
+ *= require store/spree_frontend
+*/
+.customer_assistant {
+  position: fixed;
+  bottom: 0;
+  right: 30px;
+  width: 200px;
+  text-align: center;
+  color: #7F7B83;
+
+  .head {
+    border: 1px solid #C4BECA;
+    border-bottom: 0;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .content {
+    border-left: 1px solid #C4BECA;
+    border-right: 1px solid #C4BECA;
+  }
+}

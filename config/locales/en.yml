@@ -2,4 +2,7 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  customer_assistant:
+    need_help: Do you need help?
+    introduction: "Hello there, I'm your private assistant. If you need help "
+    email_me: "please send me an email"

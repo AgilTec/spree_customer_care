@@ -1,0 +1,16 @@
+<% if current_spree_user.present? && !current_spree_user.is_assistant? %>
+  <% if current_spree_user.assistant.present?%>
+    <div class="customer_assistant">
+      <div class="head">
+        <%= t('customer_assistant.need_help') %>
+      </div>
+      <div class="content">
+        <div class="assistant_avatar">
+          <%= image_tag assistant_avatar_url(current_spree_user.assistant) %>
+        </div>
+        <%= t('customer_assistant.introduction') %>
+        <%= mail_to current_spree_user.assistant.email, t('customer_assistant.email_me')%>
+      </div>
+    </div>
+  <% end %>
+<% end %>

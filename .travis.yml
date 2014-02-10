@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+  - 2.1.0
+bundler_args: --without development production --quiet
+before_script:
+  - "bundle exec rake test_app"
+notifications:
+  email:
+    - marek.buszman@netguru.co
+branches:
+  only:
+    - master
+    - 2-1-stable

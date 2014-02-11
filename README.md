@@ -2,6 +2,7 @@ SpreeCustomerCare
 =================
 [![Build Status](https://travis-ci.org/netguru/spree_customer_care.png)](https://travis-ci.org/netguru/spree_customer_care)
 [![Coverage Status](https://coveralls.io/repos/netguru/spree_customer_care/badge.png)](https://coveralls.io/r/netguru/spree_customer_care)
+[![Code Climate](https://codeclimate.com/github/netguru/spree_customer_care.png)](https://codeclimate.com/github/netguru/spree_customer_care)
 
 This extension adds new user role - customer assistant. Each customer have automatically (after creating account) assigned assistant.
 Customer is able to contact with his private assistant anytime from special widget.

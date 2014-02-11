@@ -4,6 +4,13 @@ SpreeCustomerCare
 This extension adds new user role - customer assistant. Each customer have automatically (after creating account) assigned assistant.
 Customer is able to contact with his private assistant anytime from special widget.
 
+
+Demo
+----
+If you want to see how it works, visit [our demo shop](https://fashion-shop.herokuapp.com).
+
+You can login using those credentials `customer@example.com` / `customer`
+
 Installation
 ------------
 

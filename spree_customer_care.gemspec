@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_customer_care'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.summary     = 'Allows to manage customer supporters.'
   s.description = 'This gem creates new user role - customer assistant. Each customer has randomly assigned assistant, that helps in making orders etc.'
   s.required_ruby_version = '>= 1.9.3'
@@ -28,4 +28,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'selenium-webdriver'
   s.add_development_dependency 'simplecov'
   s.add_development_dependency 'sqlite3'
+  s.add_development_dependency 'pry'
 end

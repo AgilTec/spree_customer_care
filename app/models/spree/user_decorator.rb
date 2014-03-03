@@ -1,5 +1,6 @@
 module Spree
   User.class_eval do
+    include AssistantAvatarSupport
     has_many :assisted_customers, class_name: 'Spree::User', foreign_key: 'assistant_id'
     belongs_to :assistant, class_name: 'Spree::User'
 

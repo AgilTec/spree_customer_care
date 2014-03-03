@@ -38,7 +38,19 @@ rake customer_assistants:assign_to_all_users
 
 Additional info
 ---------------
-This extension is using [gravatar.com](http://gravatar.com) to display assistants photo/avatar.
+This extension is using [gravatar.com](http://gravatar.com) to display assistants photo/avatar by default.
+Custom avatars are also supported :)
+
+Just take a look at the code below, if you want to do so.
+```ruby
+Spree::User.class_eval do
+  set_assistant_avatar :my_custom_avatar_method
+
+  def my_custom_avatar_method
+    # returns avatar url
+  end
+end
+```
 
 Currently supported Spree version: 2.1.X
 

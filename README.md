@@ -4,8 +4,8 @@ SpreeCustomerCare
 [![Coverage Status](https://coveralls.io/repos/netguru/spree_customer_care/badge.png?branch=master)](https://coveralls.io/r/netguru/spree_customer_care?branch=master)
 [![Code Climate](https://codeclimate.com/github/netguru/spree_customer_care.png)](https://codeclimate.com/github/netguru/spree_customer_care)
 
-This extension adds new user role - customer assistant. Each customer have automatically (after creating account) assigned assistant.
-Customer is able to contact with his private assistant anytime from special widget.
+This extension adds new user role - Customer Assistant. Each customer has automatically (after creating account) assigned an assistant.
+Customer is able to contact with their private assistant anytime from special widget.
 
 
 Demo
@@ -71,5 +71,7 @@ Simply add this require statement to your spec_helper:
 ```ruby
 require 'spree_customer_care/factories'
 ```
+
+Read more about the project at [Our First Open Source Extension for Spree](https://netguru.co/blog/posts/grab-our-first-open-source-extension-for-spree).
 
 Copyright (c) 2014 [Netguru](https://netguru.co), released under the New BSD License
